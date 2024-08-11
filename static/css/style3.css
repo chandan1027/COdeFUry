@@ -1,0 +1,108 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1722849703756-6734e4c7b42f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.66); 
+    padding: 30px; 
+    padding-right: 40px;
+    border-radius: 15px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.container:hover {
+    transform: scale(1.05); 
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    letter-spacing: 1px; 
+}
+
+.form-group {
+    margin-bottom: 25px; 
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out; 
+}
+
+.form-control:focus {
+    border-color: #333;
+    outline: none; 
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; 
+}
+
+.btn-dark {
+    
+    background-color: #333;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+    transform: scale(1.02); 
+}
+
+.btn-secondary {
+    display: block;
+    width: 93.5%;
+    margin-top: 12px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; 
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    transform: scale(1.02); 
+}
+
+.alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    padding: 15px; 
+    margin-bottom: 25px;
+    animation: fadeIn 0.5s ease-in-out; 
+}
+
+.alert ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
